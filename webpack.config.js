@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   devServer: {
-    contentBase: './dist',
+    contentBase: './src',
     historyApiFallback: true,
     disableHostCheck: true,
     host: process.env.HOST || '0.0.0.0',
@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-    title: 'Output Management'
+    title: 'Simple node app'
     })
   ],
   output: {

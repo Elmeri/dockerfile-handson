@@ -5,25 +5,26 @@ This is a simple exercise for building a Dockerfile. The repository contains a s
 The purpose of this lesson is to learn the basics of dockerizing an application.
 
 
-## Task 1: Forking and cloning this repository
+## Task 1: Cloning this repository
 
-1. Fork this repository
-1. Clone the forked repository to your computer
+1. Clone the repository to your computer
 
-## Task 2: Run the code on your computer
+## Task 2: Run the code locally on your computer
 
 1. Enter the cloned directory
 1. Run the code. If you need help, see *Running the code* below.
 1. Change code on src/index.js file. You should see the website update with your change.
 
 ## Task 3: Write and build a Dockerfile for your application
+1. Write a Dockerfile for your application. First thing to do is to find a suitable base image for your application. After that you can think what steps are required in order to run your application on the chosen image.
+2. After you have finished writing the Dockerfile you can build your image.
 
 ## Task 4: Run your application with docker
 
-## Task 5: Run your application with docker and with hot reload working
+## Task 5: Run your application with docker with hot reload working
 1. Change code on src/index.js file. You should see the website update with your change. This means you are done with the exercise.
 
-### Running the code
+### Running the code locally
 
 * Install [nodejs](https://nodejs.org/en/download/package-manager/).
 * Go to the project directory using a terminal / shell.
