@@ -1,6 +1,6 @@
 # Docker hands-on exercise
 
-This is a simple exercise for building a Dockerfile. The repository contains a simple node app. Your task is to build a Dockerfile for the application and run the application with hot-reload working.
+This is a simple exercise for building a Dockerfile. The repository contains a simple node app. Your task is to build a Dockerfile for the application and run the application with hot-reload working. Note that it is not needed to modify the application source code in order to complete the exercise.
 
 The purpose of this lesson is to learn the basics of dockerizing an application.
 
@@ -20,9 +20,10 @@ The purpose of this lesson is to learn the basics of dockerizing an application.
 2. After you have finished writing the Dockerfile you can build your image.
 
 ## Task 4: Run your application with docker
+1. Run your application with docker. Think about what options are needed when running the container in order to access the application from the browser.
 
 ## Task 5: Run your application with docker with hot reload working
-1. Change code on src/index.js file. You should see the website update with your change. This means you are done with the exercise.
+1. Run your application with docker in a way that hot reload is working. To verify that hot reload is working: Change code on src/index.js file. You should see the website update with your change. This means you are done with the exercise.
 
 ### Running the code locally
 
